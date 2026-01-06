@@ -20,7 +20,7 @@ export function Hero() {
             <span className="text-xs md:text-sm text-primary font-medium">Available for opportunities</span>
           </div>
 
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl  font-heading leading-tight text-balance">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-heading text-balance">
             <span className="text-foreground">Hi, I'm </span>
             <span className="text-primary">Aariz</span>
           </h1>
@@ -49,20 +49,20 @@ export function Hero() {
             <div className="flex items-center gap-1.5 md:gap-2">
               <Phone size={14} className="text-primary" />
               <a href="tel:+971547166008" className="hover:text-primary transition-colors">
-                +971 54 716 6008
+                +971 54 716 6008 / +91 95088 79866
               </a>
             </div>
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4 pt-2 md:pt-4">
-            <Button asChild size="default" className="animate-glow text-sm md:text-base">
+            <Button asChild size="default" className="text-sm md:text-base rounded-none">
               <a href="#projects">View My Projects</a>
             </Button>
-            <Button asChild variant="outline" size="default" className="text-sm md:text-base bg-transparent">
+            <Button asChild className="text-sm text-black bg-accent rounded-none ">
               <a href="#contact">Get in Touch</a>
             </Button>
           </div>
-        </div>
+        </div> 
       </div>
 
       <a

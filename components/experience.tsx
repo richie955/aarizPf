@@ -78,7 +78,7 @@ export function Experience() {
                       <div className="flex-1 space-y-2">
                         <div className="flex flex-wrap items-center gap-2">
                           <span
-                            className={`${exp.color} px-2 py-0.5 text-xs font-bold uppercase tracking-wide border-2 border-border`}
+                            className={`${exp.color} px-2 py-0.5 text-xs font-semibold uppercase tracking-wide border-2 border-border`}
                           >
                             {exp.type}
                           </span>

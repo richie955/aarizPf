@@ -3,48 +3,65 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Dark theme with teal accent for UI/UX portfolio */
+/* Warm editorial theme – aligned to provided palette */
 :root {
+  /* Base */
   --background: #F9F5F1;
   --foreground: #302419;
-  --card: #fdfdfd;
+
+  /* Surfaces */
+  --card: #D3C2B2;
   --card-foreground: #302419;
-  --popover: #fcfcfc;
+  --popover: #F9F5F1;
   --popover-foreground: #302419;
+
+  /* Brand / Actions */
   --primary: #CC141C;
-  --primary-foreground: #ffffff;
-  --secondary: #edf0f4;
-  --secondary-foreground: ;
-  --muted: #f5f5f5;
-  --muted-foreground: #302419;
-  --accent: #e2ebff;
-  --accent-foreground: #1e69dc;
-  --destructive: #371213;
-  --destructive-foreground: #ffffff;
-  --border: #e7e7ee;
-  --input: #ebebeb;
+  --primary-foreground: #F9F5F1;
+
+  /* Secondary (soft neutral, not blue/grey) */
+  --secondary: #E6D8CB;
+  --secondary-foreground: #302419;
+
+  /* Muted text & UI */
+  --muted: #EFE7DF;
+  --muted-foreground: #6B5A4A;
+
+  /* Accent (same family, no blue) */
+  --accent: #D3C2B2;
+  --accent-foreground: #302419;
+
+  /* Destructive */
+  --destructive: #CC141C;
+  --destructive-foreground: #F9F5F1;
+
+  /* Borders & Inputs */
+  --border: #302419;
+  --input: #E6D8CB;
   --ring: #302419;
-  --chart-1: #4ac885;
-  --chart-2: #7033ff;
-  --chart-3: #fd822b;
-  --chart-4: #3276e4;
-  --chart-5: #747474;
+
+  /* Radius (editorial, bold) */
   --radius: 1.4rem;
-  --sidebar: #f5f8fb;
+
+  /* Shadows – print-like */
+  --shadow-x: 0px;
+  --shadow-y: 4px;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-opacity: 1;
+  --shadow-color: #302419;
+
+  /* Sidebar (same language, no contrast clash) */
+  --sidebar: #F9F5F1;
   --sidebar-foreground: #302419;
   --sidebar-primary: #302419;
-  --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #ebebeb;
+  --sidebar-primary-foreground: #F9F5F1;
+  --sidebar-accent: #D3C2B2;
   --sidebar-accent-foreground: #302419;
-  --sidebar-border: #ebebeb;
+  --sidebar-border: #302419;
   --sidebar-ring: #302419;
-  --shadow-x: 0px;
-  --shadow-y: 2px;
-  --shadow-blur: 3px;
-  --shadow-spread: 0px;
-  --shadow-opacity: 0.2;
-  --shadow-color: #302419;
 }
+
 
 @theme inline {
 
@@ -202,7 +219,7 @@
   --popover: #222327;
   --popover-foreground: #f0f0f0;
   --primary: #8c5cff;
-  --primary-foreground: #ffffff;
+  --primary-foreground: #302419;
   --secondary: #2a2c33;
   --secondary-foreground: #f0f0f0;
   --muted: #2a2c33;
@@ -210,7 +227,7 @@
   --accent: #1e293b;
   --accent-foreground: #79c0ff;
   --destructive: #f87171;
-  --destructive-foreground: #ffffff;
+  --destructive-foreground: #302419;
   --border: #33353a;
   --input: #33353a;
   --ring: #8c5cff;
@@ -222,7 +239,7 @@
   --sidebar: #161618;
   --sidebar-foreground: #f0f0f0;
   --sidebar-primary: #8c5cff;
-  --sidebar-primary-foreground: #ffffff;
+  --sidebar-primary-foreground: #302419;
   --sidebar-accent: #2a2c33;
   --sidebar-accent-foreground: #8c5cff;
   --sidebar-border: #33353a;
