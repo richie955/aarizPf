@@ -28,7 +28,7 @@ const experiences = [
     period: "May - Jul 2025",
     type: "Internship",
     icon: Briefcase,
-    color: "bg-accent",
+    color: "bg-primary",
     highlights: [
       { icon: MapPin, text: "Zayed National Museum project" },
       { icon: Zap, text: "200+ security assets managed" },
@@ -71,14 +71,14 @@ export function Experience() {
                     <div className="flex flex-col sm:flex-row sm:items-start gap-4">
                       {/* Icon */}
                       <div className={`${exp.color} p-3 border-2 border-border shrink-0 w-fit`}>
-                        <Icon size={20} className="text-foreground" />
+                        <Icon size={20} className="text-white" />
                       </div>
 
                       {/* Info */}
                       <div className="flex-1 space-y-2">
                         <div className="flex flex-wrap items-center gap-2">
                           <span
-                            className={`${exp.color} px-2 py-0.5 text-xs font-semibold uppercase tracking-wide border-2 border-border`}
+                            className={`${exp.color} px-2 py-0.5 text-xs  text-white font-semibold uppercase tracking-wide border-2 border-border`}
                           >
                             {exp.type}
                           </span>

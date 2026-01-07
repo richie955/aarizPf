@@ -32,7 +32,7 @@ export function Skills() {
       case "Expert":
         return "bg-primary"
       case "Advanced":
-        return "bg-accent"
+        return "bg-secondary-foreground"
       case "Intermediate":
         return "bg-secondary"
       default:
@@ -113,7 +113,7 @@ export function Skills() {
               <span>Expert</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 bg-accent" />
+              <span className="w-2 h-2 bg-secondary-foreground" />
               <span>Advanced</span>
             </div>
             <div className="flex items-center gap-2">
